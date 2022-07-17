@@ -6,7 +6,7 @@ installing ROS in Jesten Nano
 first we need to make sure  Jetson Nano can  accept ros packages
 
 ```
-function test() {
+{
   console.log("notice the blank line before this function?");
 }
 ```
