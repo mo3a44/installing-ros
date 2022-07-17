@@ -13,7 +13,7 @@ first we need to make sure  Jetson Nano can  accept ros packages
 ```
 
 
-Add a new apt key:
+second we need to add new apt key  
 ```
 
 $ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
@@ -21,15 +21,18 @@ $ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E
 ```
 
 
-Update the Debian packages index:
+now we make sure Debian packages is up-to-date:
 ```
 
 $ sudo apt update
 
 ```
-$ sudo apt update
 
-Install the ROS Desktop package, including support for rqt, rvizand other useful robotics packages:
+
+now we can install ros using this command line 
+```
 
 $ sudo apt install ros-melodic-desktop
+
+```
 
